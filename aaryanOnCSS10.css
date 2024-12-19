@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-100-by-100{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    text-align: center;
+    line-height: 6.5;
+}
+
+.welcome-container{
+    background-color: aqua;
+    width: 1000px;
+    height: 160px;
+    padding: 50px 16px 30px 20px;
+    margin: 0 auto;
+}
+.welcome-container h1{
+    margin-bottom: 16px;
+}
+
+.sidebar-container{
+    width: 500px;
+    height: 150px;
+    background-color: #74e274;
+    position: absolute;
+    right: 10px;
+    padding: 30px 10px 20px 5px;
+}
+
+.sidebar-container h2{
+    margin-bottom: 12px;
+}

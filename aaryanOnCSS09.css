@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 20px;
+    border: 1px solid black;
+    width: 90%;
+}
+.box {
+    display: inline-block;
+    width: 180px;
+    height: 200px;
+    margin: 20px 40px 10px 20px;
+    text-align: center;
+    line-height: 200px;
+}
+.box:nth-child(even) {
+    background-color: rgb(98, 241, 98);
+}
+.box:nth-child(odd) {
+    background-color: aquamarine;
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+    color: white;
+}
+.headings {
+    margin-bottom: 8px;
+}
+#article {
+    background-color: rgb(216, 216, 216);
+}
+.article_headings {
+    margin-bottom: 10px;
+}
+.header,
+#article {
+    padding: 16px;
+}
+#article:not(:last-child) {
+    margin-bottom: 12px;
+}
